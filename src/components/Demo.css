@@ -1,3 +1,84 @@
 .change {
     background-color: rgb(250, 233, 0);
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.form-control {
+    border: 1px solid rgba(164, 173, 172, 0.44);
+    padding: 15px 60px;
+    background: #61dafb6b;
+    font-size: 16px;
+    width: 50%;
+}
+
+.form-item label {
+    margin-right: 5px;
+    max-width: 60px;
+}
+
+.form-item input {
+    border: 1px solid rgb(126, 124, 124);
+    height: 23px;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 3px 8px;
+    width: 100%;
+}
+
+
+/* 
+.form-item input:nth-of-type(2),
+.form-item input:nth-of-type(3) {
+    margin-left: 50px;
+} */
+
+.form-control input[type=submit] {
+    background: rgb(250, 233, 0);
+    font-size: 18px;
+    padding: 7px 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+    height: 35px;
+    border: 1px solid rgb(173, 162, 12);
+    margin-left: 40%;
+}
+
+.form-control input[type=submit]:hover {
+    background: #2eaacc;
+    color: #fff;
+    border-color: #2eaacc;
+}
+
+.search_box {
+    padding: 10px;
+    background: #2eaacc;
+    text-align: center;
+    width: 56.7%;
+    box-sizing: content-box;
+}
+
+.input-search {
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #aba6a6;
+    border-radius: 5px;
+}
+
+ul {
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-left: 0;
+}
+
+ul li {
+    border: 1px solid #99d6e6;
+    list-style: none;
+    padding: 6px 10px;
+    margin: 5px 0 5px 40px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 40%;
 }
