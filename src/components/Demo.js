@@ -43,7 +43,7 @@ let lite = this.props.data.map( mp =>
                 mp.items.map( ma => 
 
                      //this.start(ma)
-                   ma === this.state.search || ma.startsWith(this.state.search) ?   <li className="change" key={mp.id}>{ma}</li> :  <li className="" key={mp.id}>{ma}</li>
+                   ma === this.state.search || ma.startsWith(this.state.search) ?   <li key={mp.id}> <label className="change"> {ma}</label></li> :  <li className="" key={mp.id}>{ma}</li>
                )
             }
          
@@ -61,11 +61,7 @@ let lite = this.props.data.map( mp =>
 
             <div>
             <input type="text" name="name" id="name" onChange={this.updateText.bind(this)}/>
-                <ul>
-                  
-
-                </ul>
-
+            
                 {lite}
 
             </div>
