@@ -3,13 +3,15 @@ import './App.css';
 
 import Demo from './components/Demo';
 
+import { faHome, faArrowRight,faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
 
 class App extends Component {
 
- 
+
 
 
   obj={id:0,item:'',tries:[]}
@@ -30,7 +32,9 @@ class App extends Component {
     myClass:'item-x',
     title:'',
     name:'',
-  
+    
+
+
   }
   
   }
@@ -154,6 +158,9 @@ const data = this.ele.map((d, idx) =>{
   return([
 
     <div>
+     
+     <FontAwesomeIcon icon={faHome} />
+
          {header}
 
         {
@@ -223,9 +230,9 @@ let change = (items) => {
       
        <div>
          
-
+       
         
-        <h1>Search</h1>
+        <h1><FontAwesomeIcon icon={faHome} color="blue" /><label>Search</label></h1>
      
        <Demo data={this.ele} />
 

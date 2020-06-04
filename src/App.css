@@ -37,13 +37,22 @@
     }
 }
 
-li {
+
+/* li {
     background-color: #fdf7f7;
     border: 1px solid #999;
     padding: 5px;
     margin-top: 5px;
-}
+} */
 
 .item-x {
     background-color: rgb(243, 18, 18) !important;
+}
+
+h1 {
+    color: rgb(38, 13, 148);
+    padding: 5px 15px;
+    font-size: 30px;
+    border-bottom: 1px solid #61dafb;
+    text-transform: capitalize;
 }
