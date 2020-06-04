@@ -6,48 +6,10 @@ import Demo from './components/Demo';
 
 
 
-export const contacts = [{
-  name:'Scott',
-  phone:'123 456 789'
-},
-{
-  name:'sara',
-  phone:'123 748 222'
-},
-{
-  name:'Tim',
-  phone:'4129 567 444'
-},{
-  name:'Jeff',
-  phone:'55 456 111'
-}
-
-]
 
 class App extends Component {
 
-  contacts = [{
-    id:1,
-    name:'Scott',
-    phone:'123 456 789'
-  },
-  {
-    id:2,
-    name:'sara',
-    phone:'123 748 222'
-  },
-  {
-    id:3,
-    name:'Tim',
-    phone:'4129 567 444'
-  },{
-    id:4,
-    name:'Jeff',
-    phone:'55 456 111'
-  }
-  
-  ]
-
+ 
 
 
   obj={id:0,item:'',tries:[]}
@@ -268,9 +230,6 @@ let change = (items) => {
        <Demo data={this.ele} />
 
         
-   
-
-         
        </div>
            
        
